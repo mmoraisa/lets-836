@@ -1,37 +1,12 @@
-import { Button, Menu } from 'antd'
-import { MdCommute, MdAccessibility } from 'react-icons/md'
+import Main from './components/Main';
+import Menu from './components/Menu'
 
-const App = () => {
-  return (
-    <div>
-      <h1>Teste</h1>
-      <Menu mode="horizontal">
-        <Menu.Item key="home">
-          Home
-        </Menu.Item>
-        <Menu.Item key="team">
-          Equipe
-        </Menu.Item>
-        <Menu.Item key="aboutus">
-          Sobre nós
-        </Menu.Item>
-        <Menu.Item key="contact">
-          Contato
-        </Menu.Item>
-      </Menu>
-      <main>
-        <h2>Listagem</h2>
-        <Button icon={
-          <>
-            <MdCommute />
-            <MdAccessibility />
-          </>
-        }>
-          Cadastrar item
-        </Button>
-      </main>
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <h1>Teste</h1>
+    <Menu />
+    <Main />
+  </div>
+);
 
 export default App;

@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 
-export const StyledContainer = styled.div`
+export const StyledContainer = styled.button`
   
   ${({ color }) => color && `
     background-color: ${color};
   `}
 
+  border: none;
   border-radius: 50%;
   cursor: pointer;
   height: 15px;

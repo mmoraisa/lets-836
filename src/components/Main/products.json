@@ -1,0 +1,73 @@
+[
+  {
+    "id": "ee18624c-6679-45f3-bbce-579aca202680",
+    "category": "shoes",
+    "collection": "Winter Collection",
+    "model": {
+      "line": "Airmax",
+      "brand": "Nike",
+      "description": "Men Black Sneakers",
+      "sizes": [7, 8, 9, 10, 11],
+      "colors": [
+        { "id": "yellow", "hex": "#fdc60f" },
+        { "id": "black", "hex": "#020203" },
+        { "id": "blue", "hex": "#05a0ca" }
+      ]
+    },
+    "price": {
+      "originalPrice": 200,
+      "discountedPrice": 150
+    },
+    "photos": [
+      "https://cdn.shopify.com/s/files/1/0324/6781/2487/products/nike-air-max-2015-698902006-5_500x.png?v=1602622201"
+    ]
+  },
+  {
+    "id": "ee18624c-6679-45f3-bbce-579aca202681",
+    "category": "shoes",
+    "collection": "Winter Collection",
+    "model": {
+      "line": "Rush",
+      "brand": "Nike",
+      "description": "Men White Sneakers",
+      "sizes": [7, 8, 10, 12],
+      "colors": [
+        { "id": "yellow", "hex": "#fdc60f" },
+        { "id": "black", "hex": "#020203" },
+        { "id": "red", "hex": "#cc0203" },
+        { "id": "blue", "hex": "#05a0ca" }
+      ]
+    },
+    "price": {
+      "originalPrice": 220,
+      "discountedPrice": 155
+    },
+    "photos": [
+      "https://cdn.shopify.com/s/files/1/0324/6781/2487/products/nike-air-max-2015-698902006-5_500x.png?v=1602622201"
+    ]
+  },
+  {
+    "id": "ee18624c-6679-45sf3-bbce-579aca202681",
+    "category": "shoes",
+    "collection": "Winter Collection",
+    "model": {
+      "line": "Rush",
+      "brand": "Nike",
+      "description": "Men White Sneakers",
+      "sizes": [7, 8, 10, 12],
+      "colors": [
+        { "id": "yellow", "hex": "#fdc60f" },
+        { "id": "black", "hex": "#020203" },
+        { "id": "red", "hex": "#cc0203" },
+        { "id": "blue", "hex": "#05a0ca" }
+      ]
+    },
+    "price": {
+      "originalPrice": 220,
+      "discountedPrice": 155
+    },
+    "photos": [
+      "https://cdn.shopify.com/s/files/1/0324/6781/2487/products/nike-air-max-2015-698902006-5_500x.png?v=1602622201"
+    ]
+  }
+]

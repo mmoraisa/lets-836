@@ -1,14 +1,15 @@
-import { Button } from "antd"
-import airmax from './airmax.json'
+import products from './products.json'
 import Product from "../Product"
-import UserCard from "../UserCard"
-import { Container, StyledButton, StyledUserCard } from './styles'
+import { Container } from './styles'
 
 const Main = () => (
   <Container>
     <h2>Listagem</h2>
-    <Product product={airmax} />
-    <Product product={airmax} />
+    {
+      products.map(product =>
+        <Product key={product.id} product={product} />
+      )
+    }
   </Container>
 )
 

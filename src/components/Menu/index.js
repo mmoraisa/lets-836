@@ -1,6 +1,4 @@
-import { SearchOutlined } from '@ant-design/icons'
-import { Button, Menu as AntdMenu } from 'antd'
-import { BtnRound, BtnSearch } from './styles'
+import { Menu as AntdMenu } from 'antd'
 
 const Menu = () => (
   <AntdMenu mode="horizontal">
@@ -15,12 +13,6 @@ const Menu = () => (
     </AntdMenu.Item>
     <AntdMenu.Item key="contact">
       Contato
-    </AntdMenu.Item>
-    <AntdMenu.Item key="search">
-      <BtnRound icon={<SearchOutlined />} />
-      <BtnRound icon={<SearchOutlined />} />
-      <BtnRound icon={<SearchOutlined />} />
-      <BtnRound icon={<SearchOutlined />} />
     </AntdMenu.Item>
   </AntdMenu>
 )

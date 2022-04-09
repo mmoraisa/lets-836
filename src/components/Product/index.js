@@ -7,8 +7,8 @@ import Actions from './Actions'
 const Product = ({ product }) => {
 
   const [settings, setSettings] = useState({
-    color: null, 
-    size: null
+    color: product.model.colors[0].id, 
+    size: product.model.sizes[0]
   });
 
   const changeColor = color => {
@@ -35,15 +35,15 @@ const Product = ({ product }) => {
           <ProductInfos product={product} />
           <ProductSettings
             product={product}
+            selectedColor={settings.color}
             selectedSize={settings.size}
             changeColor={changeColor}
             changeSize={changeSize} />
-          <Actions />
+          <Actions
+            productId={product.id}
+            settings={settings} />
         </InfoArea>
       </Container>
-      <div>
-        {JSON.stringify(settings)}
-      </div>
     </>
   )
 }

@@ -5,6 +5,7 @@ export const Container = styled.article`
   color: #fff;
   display: flex;
   flex-direction: row;
+  margin: 20px 0;
 `
 
 export const PhotoArea = styled.div`

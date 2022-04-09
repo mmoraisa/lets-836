@@ -3,7 +3,7 @@ import { ColorArea, SizeArea } from './styles'
 import Button from '../../Button'
 import ColorDisplay from '../../ColorDisplay'
 
-const ProductSettings = ({ product, changeColor, changeSize, selectedSize }) => (
+const ProductSettings = ({ product, changeColor, changeSize, selectedColor, selectedSize }) => (
   <>
     <SizeArea>
       Size
@@ -27,6 +27,7 @@ const ProductSettings = ({ product, changeColor, changeSize, selectedSize }) => 
             <ColorDisplay
               key={id}
               color={hex}
+              selected={selectedColor === id}
               onClick={() => changeColor(id)} />
           )
       }
@@ -35,6 +36,7 @@ const ProductSettings = ({ product, changeColor, changeSize, selectedSize }) => 
 )
 
 ProductSettings.defaultProps = {
+  selectedColor: null,
   selectedSize: null
 }
 
@@ -54,6 +56,7 @@ ProductSettings.propTypes = {
   }).isRequired,
   changeColor: PropTypes.func.isRequired,
   changeSize: PropTypes.func.isRequired,
+  selectedColor: PropTypes.string,
   selectedSize: PropTypes.number
 }
 

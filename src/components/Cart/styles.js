@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { PRIMARY_COLOR } from '../../defaults/Colors'
 
 export const CartButton = styled.button`
   background: #dfdfdf;
@@ -23,7 +24,7 @@ export const CartButton = styled.button`
   `}
 
   &::before {
-    background: #ff008d;
+    background: ${PRIMARY_COLOR};
     border-radius: 50%;
     content: '';
     color: #fff;
@@ -79,7 +80,7 @@ export const TotalArea = styled.div`
 
 export const BtnClean = styled.button`
   border: none;
-  background: #ff008d;
+  background: ${PRIMARY_COLOR};
   border-radius: 5px;
   color: #fff;
   cursor: pointer;

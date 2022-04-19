@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { PRIMARY_COLOR } from '../../../defaults/Colors'
 
 export const Collection = styled.p`
   font-size: 18px;
@@ -7,7 +8,7 @@ export const Collection = styled.p`
 `
 
 export const ModelLine = styled.h3`
-  color: #ff6d39;
+  color: ${PRIMARY_COLOR};
   margin-bottom: 50px;
 `
 

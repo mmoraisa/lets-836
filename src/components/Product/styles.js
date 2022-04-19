@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { PRIMARY_COLOR } from '../../defaults/Colors'
 
 export const Container = styled.article`
   background-color: #2a2f40;
@@ -9,7 +10,7 @@ export const Container = styled.article`
 `
 
 export const PhotoArea = styled.div`
-  background-color: #ff6d39;
+  background-color: ${PRIMARY_COLOR};
   border-radius: 0 50% 50% 0;
   height: 300px;
   width: 300px;

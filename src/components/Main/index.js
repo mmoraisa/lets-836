@@ -29,7 +29,7 @@ const Main = () => {
       }
     }}>
       <Container>
-        <h2>Listagem</h2>
+        <h2>Listagem de produtos</h2>
         <Button onClick={openModalCadastreProduct}>Cadastrar produto</Button>
         {
           products.map(product =>
